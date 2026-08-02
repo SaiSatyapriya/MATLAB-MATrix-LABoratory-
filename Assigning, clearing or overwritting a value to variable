@@ -1,0 +1,6 @@
+Suppose a = 10;
+        b = 20; 
+These values are stored in workspace. So to remove or overwrite these value simply write the command
+" clear a  or clear b "
+
+Or if you want to delete both the values type "clear all"
