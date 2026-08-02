@@ -1,0 +1,153 @@
+An array in MATLAB is a collection of elements stored in a single variable. 
+
+There are three common types of arrays:
+1. Row Array (Row Vector)- A row vector has one row and multiple columns.
+
+" A = [1 2 3 4 5] " or " A = [1, 2, 3, 4, 5] "
+
+O/p- 
+A =
+
+     1     2     3     4     5
+
+
+2. Column Array (Column Vector)- A column vector has one column and multiple rows.
+
+" B = [1;
+     2;
+     3;
+     4;
+     5]  "
+
+O/p- 
+B =
+     1
+     2
+     3
+     4
+     5
+
+3. Two-Dimensional Array (Matrix)
+C = [1 2 3;
+     4 5 6;
+     7 8 9]
+
+O/p- 
+C =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+
+** Special Arrays
+
+I) Zeros:
+
+"A = zeros(3,4)"- Creates a 3×4 matrix of zeros.
+
+II) Ones:
+
+"A = ones(2,3)"- Creates 2x3 matrixs of 1. 
+
+III) Identity matrix:
+
+"I = eye(4)"- Creates an 4x4 identity matrix. 
+
+IV) Random numbers:
+
+"A = rand(3,3)" 
+
+V) Random integers:
+
+"A = randi(10,3,4)"
+
+VI) Accessing Elements
+Given  - 
+
+A = [10 20 30;
+     40 50 60;
+     70 80 90];
+
+*Second row, third column:
+
+"A(2,3)"
+
+Output:
+
+60
+
+*Entire second row:
+
+A(2,:)
+
+*Entire first column:
+
+A(:,1)
+
+*Submatrix:
+
+A(1:2,2:3)
+
+Output:
+
+20 30
+50 60
+
+
+**Modifying Elements
+A(2,2) = 100
+
+Result:
+
+10   20   30
+40  100   60
+70   80   90
+
+Array Operations
+
+Addition:
+
+A + B
+
+Subtraction:
+
+A - B
+
+Element-wise multiplication:
+
+A .* B
+
+Element-wise division:
+
+A ./ B
+
+Element-wise power:
+
+A .^ 2
+
+Matrix multiplication:
+
+A * B
+
+Transpose:
+
+A'
+Finding Array Size
+size(A)
+
+Number of rows:
+
+size(A,1)
+
+Number of columns:
+
+size(A,2)
+
+Length of a vector:
+
+length(A)
+
+Total number of elements:
+
+numel(A)
