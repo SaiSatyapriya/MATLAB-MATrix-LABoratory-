@@ -1,0 +1,26 @@
+ 
+I) Using the colon operator
+
+"A = 1:10"
+
+O/p- 
+
+1 2 3 4 5 6 7 8 9 10
+
+
+II) With a step size:
+
+"A = 0:2:10"
+
+O/p- 
+
+0 2 4 6 8 10
+
+
+III) Using linspace - Creates evenly spaced values.
+
+"x = linspace(0,10,5)"
+
+O/p- 
+
+0    2.5    5    7.5    10
