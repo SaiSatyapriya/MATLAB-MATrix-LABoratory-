@@ -1,0 +1,48 @@
+
+
+1) Addition:
+
+A + B
+
+2) Subtraction:
+
+A - B
+
+3) Element-wise multiplication:
+
+A .* B
+
+4) Element-wise division:
+
+A ./ B
+
+5) Element-wise power:
+
+A .^ 2
+
+6) Matrix multiplication:
+
+A * B
+
+7) Transpose:
+
+A'
+
+8) Finding Array Size
+size(A)
+
+9) Number of rows:
+
+size(A,1)
+
+Number of columns:
+
+size(A,2)
+
+10) Length of a vector:
+
+length(A)
+
+Total number of elements:
+
+numel(A)
